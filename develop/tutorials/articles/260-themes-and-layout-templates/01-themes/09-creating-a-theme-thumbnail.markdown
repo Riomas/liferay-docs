@@ -6,15 +6,11 @@ important to provide thumbnails when your theme offers
 
 Here's how to create a proper thumbnail image for your theme:
 
-1.  Create a thumbnail image. Make sure it's 150 pixels wide by 120 pixels high.
-    You may want to take a snapshot of your theme and re-size it to these
-    dimensions. **Your thumbnail must be these exact dimensions** or the image 
-    won't display properly. 
+1.  Create a screenshot image. You may want to take a snapshot of your theme.
 
-2.  Save the image as a `.png` file named `thumbnail.png` and place it in the
+2.  Save the image as a `.png` file named `screenshot.png` and place it in the
     theme's `images` folder (create this folder if it doesn't already exist). On 
-    redeployment, the `thumbnail.png` file automatically becomes the theme's
-    thumbnail.
+    redeployment, the `thumbnail.png` file will automatically be created and becomes the theme's thumbnail.
 
 Now, when you apply the theme, its thumbnail displays along with the other
 themes that are available to your site.
